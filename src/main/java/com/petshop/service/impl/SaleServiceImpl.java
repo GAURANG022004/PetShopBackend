@@ -31,7 +31,7 @@ import java.util.stream.Collectors;
 public class SaleServiceImpl implements SaleService {
 
     private final SaleRepository saleRepository;
-    private final SaleItemRepository saleItemRepository;
+    private final SaleItemRepository saleItem ;
     private final ProductRepository productRepository;
     private final StockRepository stockRepository;
     private final SaleMapper saleMapper;

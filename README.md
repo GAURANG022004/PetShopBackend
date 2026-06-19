@@ -172,3 +172,4 @@ com.petshop
 - Advanced Barcode System
 - Reports and Analytics
 - Customer Dashboard
+- Invoice module

@@ -173,3 +173,4 @@ com.petshop
 - Reports and Analytics
 - Customer Dashboard
 - Invoice module
+- Customer Module 

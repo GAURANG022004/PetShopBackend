@@ -50,7 +50,7 @@ public class SaleItem {
 
     @PrePersist
     @PreUpdate
-    protected void calculateSubtotal() {
+    public void calculateSubtotal() {
         if (quantity != null && unitPrice != null) {
             this.subtotal = unitPrice.multiply(new BigDecimal(quantity));
         }
